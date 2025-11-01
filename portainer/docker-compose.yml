@@ -7,6 +7,8 @@ services:
       - portainer-data:/data
     ports:
       - 9000
+    environment:
+      - TZ=America/Santo_Domingo
 
 volumes:
   portainer-data: {}
